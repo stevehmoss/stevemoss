@@ -1,0 +1,110 @@
+body
+{
+background: #FBFBF5;
+background-attachment: fixed;
+background-size: 100%;
+margin: 0;
+padding: 20px 20px 20px 20px;
+color:  #225D16;
+font-family: 'PT+Serif';
+}
+
+.column {
+  background-color: #FBFBF5; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #DCF9DC , #FBFBF5); /* Standard syntax (must be last) */
+	float: left;
+	width: 25%;
+	margin: 10px;
+	padding: 20px 17px 20px 17px;
+}
+
+contact {
+background: #225D16;
+color:  #fbfbf5;
+}
+
+#main {
+background: #EAF6ED;
+width:90%;
+margin:0px auto;
+text-align:left;
+box-shadow: 0 0 20px #22401C;
+}
+
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+h1 
+{
+text-align: center;
+}
+
+h3
+
+{
+text-align: center;
+}
+
+h4
+{
+font: 14pt;
+text-align: center;
+}
+
+h5 {
+    position: fixed;
+    top: 0;
+	font: bold;
+	text-align: left;
+    background-color: #fbfbf5;
+	padding: 10px 10px 10px 10px;
+}
+
+a
+  {
+  margin-right: 2px;
+  text-align: center;
+  padding: 2px 5px 2px 5px;
+  color: #347528;
+  text-decoration: underline;
+}
+
+a:HOVER	
+{
+color: #3C3EF0;
+}
+
+img {
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:90%;
+} 
+
+video {
+display:block;
+margin-left:auto;
+margin-right:auto;
+}

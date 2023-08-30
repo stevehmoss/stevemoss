@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+    <title>Tunnel</title>
+<link rel="icon" type="image/ico" href="style/rp.ico.jpg">
+<link rel="stylesheet" type="text/css" href="mobile.css">
+<link href='https://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>	<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+
+<body>
+	<div class="dropdown">
+		<button class="dropbtn" onclick="myFunction()">menu</button>
+
+		<div class="dropdown-content" id="myDropdown">
+            <a href="index.html">Home Page</a>
+            <a href="house.html">Finding the house</a>
+            <a href="asbestos.html">Removing the asbestos</a>
+            <a href="verandah.html">Fixing the verandah</a>
+            <a href="tanks.html">Organising the tanks</a>
+            <a href="kitchen.html">Six Kitchens</a>
+            <a href="orchard.html">Growing fruit</a>
+            <a href="alpacas.html">Growing wool</a>
+		</div>
+	</div>
+	<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+	   document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	 if (!event.target.matches('.dropbtn')) {
+
+	   var dropdowns = document.getElementsByClassName("dropdown-content");
+	   var i;
+	   for (i = 0; i < dropdowns.length; i++) {
+	     var openDropdown = dropdowns[i];
+	     if (openDropdown.classList.contains('show')) {
+	       openDropdown.classList.remove('show');
+	     }
+	   }
+	 }
+	}
+	</script>	
+<br>	
+<br>
+<div id="home">
+<h1>The Vegie Tunnel</h1>
+The idea of the tunnel is for it to be a bird- and possum-proof vegie garden:
+<img src="../images/tunnel1.jpg" alt="photograph">
+<br>
+Here's Jack helping Lesley to tidy up some chicken-wire we found at the local bargain centre (Rye Park dump):
+<img src="../images/tunnel2.jpg" alt="photograph">
+<br>
+Here's the structure a bit more underway:
+<img src="../images/tunnel3.jpg" alt="photograph">
+<br>
+And finally complete. We were lucky to have some huge planks of wood up the back for the borders. We've planted some broad beans in there to get some nitrogen into the soil.
+<img src="../images/tunnel4.jpg" alt="photograph">
+<br>
+<a href="index.html">Home</a>
+<a href="house.html">House</a>
+<a href="kitchen.html">Six Kitchens</a>
+<a href="asbestos.html">Asbestos</a>
+<a href="verandah.html">Verandah</a>
+<a href="tanks.html">Tanks</a>
+<a href="fortvedge.html">Fort Veg</a>
+<a href="orchard.html">Orchard</a>
+<a href="alpacas.html">Pacas</a>
+<h4><a href='#top'>Back to Top</a></h4>
+</div>
+<br>
+<br>
+</body>
+</html>

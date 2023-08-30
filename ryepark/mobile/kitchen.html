@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+    <title>Kitchen</title>
+	<link rel="icon" type="image/ico" href="style/rp.ico.jpg">
+<link rel="stylesheet" type="text/css" href="mobile.css">
+<link href='https://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+
+<body>
+	<div class="dropdown">
+		<button class="dropbtn" onclick="myFunction()">menu</button>
+
+		<div class="dropdown-content" id="myDropdown">
+            <a href="index.html">Home Page</a>
+            <a href="house.html">Finding the house</a>
+            <a href="asbestos.html">Removing the asbestos</a>
+            <a href="verandah.html">Fixing the verandah</a>
+            <a href="tanks.html">Organising the tanks</a>
+            <a href="kitchen.html">Six Kitchens</a>
+            <a href="orchard.html">Growing fruit</a>
+            <a href="alpacas.html">Growing wool</a>
+		</div>
+	</div>
+	<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+	   document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	 if (!event.target.matches('.dropbtn')) {
+
+	   var dropdowns = document.getElementsByClassName("dropdown-content");
+	   var i;
+	   for (i = 0; i < dropdowns.length; i++) {
+	     var openDropdown = dropdowns[i];
+	     if (openDropdown.classList.contains('show')) {
+	       openDropdown.classList.remove('show');
+	     }
+	   }
+	 }
+	}
+	</script>	
+<br>	
+<br>
+<div id="home">
+<h1>The Kitchen</h1>
+Version One: Prehistoric till early 2008. South end of back verandah
+<img src="../images/kitchen01.jpg" alt="photograph">
+<br>
+<br>
+Version Two: 
+2008 - 2012. North end of back verandah
+<img src="../images/kitchen02.jpg" alt="photograph">
+<br>
+<br>
+Version Three: 2012 - late-2014. Moved into dining room to allow demolition of Back verandah and construction of new rear of house.
+<img src="../images/kitchen03.jpg" alt="photograph">
+<br>
+<br>
+Version Four: 2014 - late 2016. Trial occupancy of final kitchen space
+<img src="../images/kitchen04.jpg" alt="photograph">
+<br>
+<br>
+Version Five: early 2017. Back into the dining room to allow a brand new permanent kitchen to go in!
+<img src="../images/kitchen05.jpg" alt="photograph">
+<br>
+<br>
+Version Six: early 2017. Rapid installation of everything that needed to function in order to use the kitchen.
+<img src="../images/kitchen2019.jpg" alt="photograph">
+<br>
+<br>
+Version Seven: This is the photo in the Real Estate ad for selling the house in 2020...
+<img src="../images/kitchen2020.jpg" alt="photograph">
+<h4>________________________________________________</h4>
+<br>
+<a href="index.html">Home</a>
+<a href="house.html">House</a>
+<a href="kitchen.html">Six Kitchens</a>
+<a href="asbestos.html">Asbestos</a>
+<a href="verandah.html">Verandah</a>
+<a href="tanks.html">Tanks</a>
+<a href="fortvedge.html">Fort Veg</a>
+<a href="orchard.html">Orchard</a>
+<a href="alpacas.html">Pacas</a>
+<h4><a href='#top'>Back to Top</a></h4>
+</div>
+<br>
+<br>
+</body>
+</html>
